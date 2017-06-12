@@ -43,6 +43,10 @@ int main(int argc, char* argv[])
 
 	Print( b );
 
+	ESomeType t( ESomeType::eA );
+
+	Print( t );
+
 	return 0;
 }
 
